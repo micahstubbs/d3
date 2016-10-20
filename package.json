@@ -32,7 +32,7 @@
   "devDependencies": {
     "json2module": "0.0",
     "package-preamble": "0.0",
-    "rimraf": "2",
+    "rimraf": "^2.5.4",
     "rollup": "0.36",
     "rollup-plugin-ascii": "0.0",
     "rollup-plugin-node-resolve": "2",
@@ -68,7 +68,7 @@
     "d3-time-format": "2.0.2",
     "d3-timer": "1.0.3",
     "d3-transition": "1.0.2",
-    "d3-voronoi": "1.0.2",
+    "d3-voronoi": "git+https://github.com/fil/d3-voronoi.git#find",
     "d3-zoom": "1.0.3"
   }
 }
